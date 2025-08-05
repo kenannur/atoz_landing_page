@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtoZ – Merge the Alphabet</title>
+  <meta name="description" content="Play AtoZ! Merge letters from A to Z in this addictive twist on the classic 2048 puzzle.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+    .hero {
+      background: linear-gradient(120deg, #6c63ff, #48c6ef);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 { font-size: 3rem; font-weight: bold; }
+    .hero p { font-size: 1.2rem; margin-top: 20px; }
+    .feature-icon { font-size: 40px; color: #6c63ff; margin-bottom: 15px; }
+    footer {
+      background-color: #f8f9fa;
+      padding: 30px 0;
+      text-align: center;
+      margin-top: 50px;
+    }
+    footer a { color: #6c63ff; text-decoration: none; margin: 0 10px; }
+    .modal-body { text-align: left; }
+    .modal h5 { color: #6c63ff; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>AtoZ</h1>
+    <p>Merge letters, climb the alphabet, and reach Z in this addictive puzzle game!</p>
+    <div class="mt-4">
+      <a href="#" class="btn btn-light btn-lg me-2">Download on App Store</a>
+      <a href="#" class="btn btn-outline-light btn-lg">Get it on Google Play</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="container my-5">
+    <div class="text-center mb-5">
+      <h2>Why You'll Love AtoZ</h2>
+      <p class="text-muted">A fresh twist on the classic 2048 puzzle with letters instead of numbers.</p>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="feature-icon">🔤</div>
+        <h5>Letter-Based Puzzle</h5>
+        <p>Merge A’s to create B’s, B’s to create C’s, and so on. Can you reach Z?</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon">🎯</div>
+        <h5>Addictive Gameplay</h5>
+        <p>Easy to play, hard to master. Plan your moves to get the highest score!</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon">📱</div>
+        <h5>Play Anywhere</h5>
+        <p>Works offline. Enjoy AtoZ anytime, anywhere, without Wi-Fi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 AtoZ. All rights reserved.</p>
+    <p>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a> | 
+      <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms of Service</a> | 
+      <a href="mailto:support@atozgame.com">Support</a>
+    </p>
+  </footer>
+
+  <!-- Privacy Policy Modal -->
+  <div class="modal fade" id="privacyModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Privacy Policy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Effective Date:</strong> January 1, 2025</p>
+          <p>AtoZ (“we,” “our,” or “us”) values your privacy. This Privacy Policy explains how we handle your information when you use our mobile application.</p>
+          <h6>1. Information We Collect</h6>
+          <ul>
+            <li>We do not collect personal information such as your name, email, or phone number.</li>
+            <li>The app may collect anonymous gameplay data to improve the experience.</li>
+            <li>Ads or analytics may collect limited device data.</li>
+          </ul>
+          <h6>2. How We Use Information</h6>
+          <ul>
+            <li>To improve gameplay performance and fix bugs.</li>
+            <li>To analyze trends and improve the user experience.</li>
+          </ul>
+          <h6>3. Contact Us</h6>
+          <p>Email: <a href="mailto:support@atozgame.com">support@atozgame.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms of Service Modal -->
+  <div class="modal fade" id="termsModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Terms of Service</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Effective Date:</strong> January 1, 2025</p>
+          <p>By downloading or using AtoZ, you agree to the following terms:</p>
+          <h6>1. Use of the App</h6>
+          <ul>
+            <li>The App is provided for entertainment purposes only.</li>
+            <li>You agree not to use the App for any unlawful activities.</li>
+          </ul>
+          <h6>2. Intellectual Property</h6>
+          <p>All game content and code are owned by AtoZ.</p>
+          <h6>3. Disclaimer</h6>
+          <p>The App is provided “as is” without warranties of any kind. We are not responsible for damages arising from its use.</p>
+          <h6>4. Contact Us</h6>
+          <p>Email: <a href="mailto:support@atozgame.com">support@atozgame.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
